@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:padding="2dp"
+    android:background="@drawable/housienumberitemborder"
+    android:layout_margin="1dp"
+    android:layout_height="80dp">
+    <TextView
+        android:id="@+id/tv_housieNumberItemId"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="@color/whiteFont"
+        android:textSize="24sp"
+        android:background="@color/brownshadeItemBackground"
+        android:layout_height="match_parent"/>
+</LinearLayout>

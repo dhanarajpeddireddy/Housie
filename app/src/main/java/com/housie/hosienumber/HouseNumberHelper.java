@@ -3,6 +3,7 @@ package com.housie.hosienumber;
 import android.util.Log;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class HouseNumberHelper {
@@ -10,7 +11,7 @@ public class HouseNumberHelper {
     Random random = new Random();
     ArrayList<Integer> randomValues = new ArrayList<>();
 
-    public int randomHouseNumber() {
+    public int getRandomHouseNumber() {
         int randomnumber=-1;
         if(randomValues.size()< Constants.BOUNDORY_NUMBER-1) {
             boolean value;
@@ -35,6 +36,10 @@ return randomnumber;
             Log.e("succsses", "genreated value" + number);
         }
 
+    }
+
+    public List<Integer> getRandomValueList() {
+        return randomValues;
     }
 }
 
