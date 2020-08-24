@@ -4,6 +4,7 @@ import java.util.List;
 
 public class MainActivityViewModel {
 
+
     public int getRandomNumber()
     {
        return Repo.getinstance().requestRandomNumber();
@@ -20,5 +21,9 @@ public class MainActivityViewModel {
     }
 
 
+    public void  restart()
+    {
+        Repo.getinstance().requestEmpty();
+    }
 
 }

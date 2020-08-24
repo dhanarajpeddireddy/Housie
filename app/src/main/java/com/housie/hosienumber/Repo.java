@@ -57,4 +57,8 @@ public class Repo implements TextToSpeech.OnInitListener {
         speachUtilStatus=true;
         requestSpeakNumber(speechText);
     }
+
+    public void requestEmpty() {
+        houseNumberHelper.emptyList();
+    }
 }

@@ -10,8 +10,8 @@
         android:id="@+id/tv_housieNumberItemId"
         android:layout_width="match_parent"
         android:gravity="center"
-        android:textColor="@color/whiteFont"
+        android:textColor="@color/brown"
         android:textSize="24sp"
-        android:background="@color/brownshadeItemBackground"
+        android:background="@color/whiteFont"
         android:layout_height="match_parent"/>
 </LinearLayout>

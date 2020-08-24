@@ -41,5 +41,11 @@ return randomnumber;
     public List<Integer> getRandomValueList() {
         return randomValues;
     }
+
+
+    public void emptyList()
+    {
+        randomValues.clear();
+    }
 }
 
